@@ -9,6 +9,7 @@ nav{
     margin: 0;
     display: flex;
     position: sticky;
+    top:0;
 }
 
 a{
@@ -18,9 +19,51 @@ a{
     width: 25%;
     padding: 10px;
     text-align: center;
-    border: 2px solid aliceblue
+    border: 2px solid aliceblue;
+    background-color: darkgrey;
 }
 a:hover{
     background-color: lightgray;
     text-decoration: underline;
+}
+.flexbox{
+    display: flex;
+}
+.sidebox{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 5px;
+    height: auto;
+    background-color: black;
+    margin:50px;
+    margin-bottom: 170px;
+}
+.circle, .circle2, .circle3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    left: -13px;
+    top: -25px;
+}
+.circle2{
+    top:120px;
+}
+.circle3{
+    top:250px;
+}
+.circle>p{
+    position:relative;
+    top:5px;
+    left: 10px;
+}
+.circle2>p, .circle3>p{
+    position:relative;
+    top:5px;
+    left: 10px;
 }
