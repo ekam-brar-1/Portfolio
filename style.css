@@ -1,3 +1,4 @@
+
 body{
     background-color: darkgray;
     font-family: sans-serif;
@@ -8,8 +9,7 @@ nav{
     padding: 0;
     margin: 0;
     display: flex;
-    position: sticky;
-    top:0;
+  
 }
 
 a{
@@ -39,7 +39,10 @@ a:hover{
     height: auto;
     background-color: black;
     margin:50px;
-    margin-bottom: 170px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .circle, .circle2, .circle3{
     height: 30px;
@@ -48,22 +51,41 @@ a:hover{
     background-color: black;
     color: aliceblue;
     position: relative;
-    left: -13px;
-    top: -25px;
+    left: -250%;
 }
-.circle2{
-    top:120px;
-}
-.circle3{
-    top:250px;
-}
-.circle>p{
+
+
+.circle2>p, .circle3>p,.circle>p{
     position:relative;
-    top:5px;
-    left: 10px;
+    top: -30%;
+    left:35%;
 }
-.circle2>p, .circle3>p{
-    position:relative;
-    top:5px;
-    left: 10px;
+img{
+    width: 60%;
+    height: 40%;
+}
+.flexbox2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexbox2>div{
+    width:50%;
+}
+.flexbox2>div>h3>a{
+    width:70%;
+}
+.projectdescription{
+    margin-right: 20px;
+    overflow: hidden;
+}
+.flexbox3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexbox3>div>p>a{
+    width: 50%;
+    overflow-x: scroll;
+}
+.flexbox3>div{
+    width: 50%;
 }
