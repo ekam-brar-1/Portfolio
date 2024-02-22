@@ -11,6 +11,9 @@ nav{
     display: flex;
   
 }
+.click{
+    display: none;
+}
 
 a{
     text-decoration: none;
@@ -53,6 +56,26 @@ a:hover{
     position: relative;
     left: -250%;
 }
+.developer{
+    display: flex;
+  
+}
+.developer>h2{
+    
+    padding: 15px 30px;
+    color:aliceblue;
+    margin: 15px;
+    transition: 0.4s all ease-in;
+    border:2px solid aliceblue;
+}
+.developer>h2:hover{
+    background: #03e9f4;
+    color:#050801;
+    border:2px solid #03e9f4;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
 
 
 .circle2>p, .circle3>p,.circle>p{
@@ -84,8 +107,23 @@ img{
 }
 .flexbox3>div>p>a{
     width: 50%;
-    overflow-x: scroll;
+    
 }
 .flexbox3>div{
     width: 50%;
+}
+@media(max-width:700px){
+    .flexbox3>div>p>a{
+        
+        overflow-x:scroll;
+    }
+    .developer{
+        overflow-x: auto;
+    }
+    .hover{
+        display: none;
+    }
+    .click{
+        display: block;
+    }
 }
