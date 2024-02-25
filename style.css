@@ -26,6 +26,10 @@ a{
     border: 2px solid aliceblue;
     background-color: darkgrey;
 }
+nav>list>a:first-child{
+    border-top-left-radius: 5%;
+
+}
 a:hover{
     background-color: lightgray;
     text-decoration: underline;
