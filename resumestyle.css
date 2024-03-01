@@ -10,8 +10,8 @@ header{
     gap:20px;
 }
 img{
-    height: 20%;
-    width: 20%;
+    height: 15%;
+    width: 15%;
     border-radius: 50%;
     border:3px solid black;
 }
@@ -22,30 +22,29 @@ main{
 .address{
     display: block;
     width: 50%;
-    height:auto;
 }
 .experience{
     display: block;
-    width: 50%;
-    height: auto;
+    width: 50%
 }
 .education{
     display: block;
     width: 50%;
-    height: auto;
 }
 .skills{
     display: block;
     width: 50%;
-    height: auto;
+}
+.projects{
+    display: block;
+    width: 50%;
+    
 }
 .availability{
     display: block;
     width:50%;
-    align-items: center;
 }
-.activities{
+.hobbies{
     display: block;
     width: 100%;
-    height: auto;
 }

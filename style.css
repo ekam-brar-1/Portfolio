@@ -109,7 +109,7 @@ input{
     left:35%;
 }
 img{
-    width: 60%;
+    width: 50%;
     height: 40%;
 }
 .flexbox2{
@@ -132,6 +132,7 @@ img{
 }
 .flexbox3>div>p>a{
     width: 50%;
+    border-radius: 70px;
     
 }
 .flexbox3>div{
